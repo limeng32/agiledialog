@@ -137,6 +137,9 @@ var Agiledialog = Base.extend({
         onConfirm: {
             value: function() {}
         },
+        onClose:{
+            value: function() {}
+        },
         posType: {
             value: 'fixed' // absolute 默认固定布局
         }
